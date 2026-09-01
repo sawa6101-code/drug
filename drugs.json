@@ -1,0 +1,6 @@
+[
+{"name":"カロナール細粒20%／50%","active":"アセトアミノフェン","form":"散剤","concentration":"20%=200mg/g、50%=500mg/g","rule_type":"weight","dose_mg_per_kg_min":10,"dose_mg_per_kg_max":15,"frequency":"1日3～4回（投与間隔4～6時間以上）","max_mg_per_day":60,"max_mg_per_dose":500,"note":"適応症・年齢・投与間隔等により用量が異なるため、最新電子添文を確認してください。","source":"PMDA 電子添文"},
+{"name":"ムコダインDS50%","active":"L-カルボシステイン","form":"ドライシロップ","concentration":"500mg/g","rule_type":"weight","dose_mg_per_kg_min":20,"dose_mg_per_kg_max":30,"frequency":"1日3回","max_mg_per_day":1500,"note":"適応症等による記載差を含め、最新電子添文を確認してください。","source":"PMDA 電子添文"},
+{"name":"アスベリン散10%","active":"チペピジンヒベンズ酸塩","form":"散剤","concentration":"100mg/g","rule_type":"weight","dose_mg_per_kg_min":1,"dose_mg_per_kg_max":2,"frequency":"1日3回","max_mg_per_day":60,"note":"適応症・年齢・症状に応じて用量が異なる場合があります。最新電子添文を確認してください。","source":"PMDA 電子添文"},
+{"name":"アレグラドライシロップ5%","active":"フェキソフェナジン塩酸塩","form":"ドライシロップ","concentration":"50mg/g","rule_type":"age","age_rules":[{"min":0.5,"max":2,"mg":15,"g":0.3},{"min":2,"max":7,"mg":30,"g":0.6},{"min":7,"max":12,"mg":30,"g":0.6},{"min":12,"max":999,"mg":60,"g":1.2}],"frequency":"1日2回","note":"年齢区分による固定用量。体重比例換算は行いません。最新電子添文を確認してください。","source":"PMDA 電子添文"}
+]
