@@ -1,6 +1,6 @@
 let drugs=[];const $=id=>document.getElementById(id);
 async function init(){drugs=await fetch('drugs.json').then(r=>r.json());$('count').textContent=`現在 ${drugs.length} 製剤を収載。`;$('data').textContent=JSON.stringify(drugs,null,2);addDrugRow()}
-function fmt(n,d=2){return Number(n.toFixed(d)).toString()}
+function fmt(n,d=2){return Number(n).toFixed(2)}
 function parsePrescribed(t){if(!t)return null;const m=t.trim().replace(/,/g,'').match(/^([0-9]*\.?[0-9]+)\s*(mg|g|mL|ml)$/i);if(!m)return null;return{value:+m[1],unit:m[2].toLowerCase()==='ml'?'mL':m[2]}}
 function toMg(v,u,d){if(u==='mg')return v;if(u==='g')return d.mg_per_g?v*d.mg_per_g:v*1000;if(u==='mL'&&d.mg_per_ml)return v*d.mg_per_ml;return null}
 function toForm(v,d){if(d.mg_per_g)return{value:v/d.mg_per_g,unit:'g'};if(d.mg_per_ml)return{value:v/d.mg_per_ml,unit:'mL'};return null}
