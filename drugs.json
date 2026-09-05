@@ -4,7 +4,6 @@
 {"name":"アスベリンドライシロップ2%","active":"チペピジンヒベンズ酸塩","form":"ドライシロップ","concentration":"2%（20mg/g）","mg_per_g":20,"rule_type":"manual"},
 {"name":"アレグラドライシロップ5%","active":"フェキソフェナジン塩酸塩","form":"ドライシロップ","concentration":"5%（50mg/g）","mg_per_g":50,"rule_type":"age","age_rules":[{"min":0.5,"max":2,"mg":15,"g":0.3},{"min":2,"max":12,"mg":30,"g":0.6},{"min":12,"max":999,"mg":60,"g":1.2}],"frequency":"1日2回","frequency_fixed":2},
 {"name":"アルダクトンA細粒10%","active":"スピロノラクトン","form":"細粒","concentration":"10%（100mg/g）","mg_per_g":100,"rule_type":"manual"},
-{"name":"アンブロキソール塩酸塩DS小児用1.5%「タカタ」","active":"アンブロキソール塩酸塩","form":"ドライシロップ","concentration":"1.5%（15mg/g）","mg_per_g":15,"rule_type":"manual","note":"先発名への統合対象：小児用ムコソルバンDS1.5%。"},
 {"name":"インクレミンシロップ5%","active":"溶性ピロリン酸第二鉄","form":"シロップ","concentration":"5%","rule_type":"manual"},
 {"name":"イーケプラドライシロップ50%","active":"レベチラセタム","form":"ドライシロップ","concentration":"50%（500mg/g）","mg_per_g":500,"rule_type":"manual"},
 {"name":"エビリファイ散1%","active":"アリピプラゾール","form":"散剤","concentration":"1%（10mg/g）","mg_per_g":10,"rule_type":"manual"},
@@ -15,7 +14,6 @@
 {"name":"グルコン酸K細粒4mEq/g","active":"グルコン酸カリウム","form":"細粒","concentration":"4mEq/g（カリウム4mEq/g）","rule_type":"manual"},
 {"name":"クラリスドライシロップ10%小児用100mg","active":"クラリスロマイシン","form":"ドライシロップ","concentration":"10%（100mg/g）","mg_per_g":100,"rule_type":"weight","dose_basis":"per_day","dose_mg_per_kg_min":10,"dose_mg_per_kg_max":15,"frequency_min":2,"frequency_max":3,"frequency":"1日10～15mg/kgを2～3回に分けて投与","max_mg_per_day":400},
 {"name":"クラリチンドライシロップ1%","active":"ロラタジン","form":"ドライシロップ","concentration":"1%（10mg/g）","mg_per_g":10,"rule_type":"manual"},
-{"name":"クレマスチンDS0.1%「タカタ」","active":"クレマスチンフマル酸塩","form":"ドライシロップ","concentration":"0.1%（1mg/g）","mg_per_g":1,"rule_type":"manual","note":"先発名はタベジール散0.1%。"},
 {"name":"ザイザルシロップ0.05%","active":"レボセチリジン塩酸塩","form":"シロップ","concentration":"0.05%（0.5mg/mL）","mg_per_ml":0.5,"rule_type":"age","age_rules":[{"min":0.5,"max":1,"mg":1.25,"mL":2.5,"frequency":1},{"min":1,"max":7,"mg":1.25,"mL":2.5,"frequency":2},{"min":7,"max":15,"mg":2.5,"mL":5,"frequency":2}],"frequency":"年齢により1～2回/日"},
 {"name":"ザジテンドライシロップ0.1%","active":"ケトチフェンフマル酸塩","form":"ドライシロップ","concentration":"0.1%（1mg/g）","mg_per_g":1,"rule_type":"manual"},
 {"name":"ジルテックドライシロップ1.25%","active":"セチリジン塩酸塩","form":"ドライシロップ","concentration":"1.25%（12.5mg/g）","mg_per_g":12.5,"rule_type":"manual"},
@@ -44,7 +42,6 @@
 {"name":"メジコン配合シロップ","active":"デキストロメトルファン配合剤","form":"シロップ","concentration":"配合シロップ","rule_type":"manual"},
 {"name":"メプチンドライシロップ0.005%","active":"プロカテロール塩酸塩水和物","form":"ドライシロップ","concentration":"0.005%（0.05mg/g）","mg_per_g":0.05,"rule_type":"weight","dose_basis":"per_dose","dose_mg_per_kg_min":0.025,"dose_mg_per_kg_max":0.025,"frequency_min":2,"frequency_max":3,"frequency":"6歳未満：1回0.025mg/kgを1日2～3回相当"},
 {"name":"ミヤBM細粒","active":"宮入菌","form":"細粒","concentration":"1g製剤","rule_type":"manual"},
-{"name":"ムコソルバン小児用ムコソルバンDS1.5%","active":"アンブロキソール塩酸塩","form":"ドライシロップ","concentration":"1.5%（15mg/g）","mg_per_g":15,"rule_type":"weight","dose_basis":"per_day","dose_mg_per_kg_min":0.9,"dose_mg_per_kg_max":0.9,"frequency_min":3,"frequency_max":3,"frequency":"1日0.9mg/kgを3回に分けて投与","max_mg_per_day":45},
 {"name":"ムコダインDS50%","active":"L-カルボシステイン","form":"ドライシロップ","concentration":"50%（500mg/g）","mg_per_g":500,"rule_type":"weight","dose_basis":"per_day","dose_mg_per_kg_min":20,"dose_mg_per_kg_max":30,"frequency_min":3,"frequency_max":3,"frequency":"1日3回","max_mg_per_day":1500},
 {"name":"ムコダインシロップ5%","active":"L-カルボシステイン","form":"シロップ","concentration":"5%（50mg/mL）","mg_per_ml":50,"rule_type":"manual"},
 {"name":"ラシックス細粒4%","active":"フロセミド","form":"細粒","concentration":"4%（40mg/g）","mg_per_g":40,"rule_type":"manual"},
@@ -52,6 +49,6 @@
 {"name":"リスパダール細粒1%","active":"リスペリドン","form":"細粒","concentration":"1%（10mg/g）","mg_per_g":10,"rule_type":"manual"},
 {"name":"ワイドシリン細粒20%","active":"アモキシシリン水和物","form":"細粒","concentration":"20%（200mg/g）","mg_per_g":200,"rule_type":"weight","dose_basis":"per_day","dose_mg_per_kg_min":20,"dose_mg_per_kg_max":40,"frequency_min":3,"frequency_max":4,"frequency":"1日3～4回","max_mg_per_kg_per_day":90},
 {"name":"サワシリン細粒10%","active":"アモキシシリン水和物","form":"細粒","concentration":"10%（100mg/g）","mg_per_g":100,"rule_type":"weight","dose_basis":"per_day","dose_mg_per_kg_min":20,"dose_mg_per_kg_max":40,"frequency_min":3,"frequency_max":4,"frequency":"1日3～4回","max_mg_per_kg_per_day":90},
-{"name":"酸化マグネシウム細粒83%「ヨシダ」","active":"酸化マグネシウム","form":"細粒","concentration":"83%（833mg/g）","mg_per_g":833,"rule_type":"manual","note":"先発品のない後発品のため、製品名をそのまま登録。"},
+{"name":"酸化マグネシウム細粒83%「ヨシダ」","active":"酸化マグネシウム","form":"細粒","concentration":"83%（833mg/g）","mg_per_g":833,"rule_type":"manual","note":"先発品のない後発品のため製品名をそのまま登録。"},
 {"name":"小児用ムコソルバンDS1.5%","active":"アンブロキソール塩酸塩","form":"ドライシロップ","concentration":"1.5%（15mg/g）","mg_per_g":15,"rule_type":"weight","dose_basis":"per_day","dose_mg_per_kg_min":0.9,"dose_mg_per_kg_max":0.9,"frequency_min":3,"frequency_max":3,"frequency":"1日0.9mg/kgを3回に分けて投与","max_mg_per_day":45}
 ]
