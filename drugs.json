@@ -8,6 +8,14 @@
     "rule_type": "manual"
   },
   {
+    "name": "アスベリンドライシロップ2%",
+    "active": "チペピジンヒベンズ酸塩",
+    "form": "ドライシロップ",
+    "concentration": "2%（20mg/g）",
+    "mg_per_g": 20,
+    "rule_type": "manual"
+  },
+  {
     "name": "アスベリン散10%",
     "active": "チペピジンヒベンズ酸塩",
     "form": "散剤",
@@ -23,11 +31,11 @@
     "max_mg_per_day": 60
   },
   {
-    "name": "アスベリンドライシロップ2%",
-    "active": "チペピジンヒベンズ酸塩",
-    "form": "ドライシロップ",
-    "concentration": "2%（20mg/g）",
-    "mg_per_g": 20,
+    "name": "アルダクトンA細粒10%",
+    "active": "スピロノラクトン",
+    "form": "細粒",
+    "concentration": "10%（100mg/g）",
+    "mg_per_g": 100,
     "rule_type": "manual"
   },
   {
@@ -61,11 +69,11 @@
     "frequency_fixed": 2
   },
   {
-    "name": "アルダクトンA細粒10%",
-    "active": "スピロノラクトン",
-    "form": "細粒",
-    "concentration": "10%（100mg/g）",
-    "mg_per_g": 100,
+    "name": "イーケプラドライシロップ50%",
+    "active": "レベチラセタム",
+    "form": "ドライシロップ",
+    "concentration": "50%（500mg/g）",
+    "mg_per_g": 500,
     "rule_type": "manual"
   },
   {
@@ -73,14 +81,6 @@
     "active": "溶性ピロリン酸第二鉄",
     "form": "シロップ",
     "concentration": "5%",
-    "rule_type": "manual"
-  },
-  {
-    "name": "イーケプラドライシロップ50%",
-    "active": "レベチラセタム",
-    "form": "ドライシロップ",
-    "concentration": "50%（500mg/g）",
-    "mg_per_g": 500,
     "rule_type": "manual"
   },
   {
@@ -123,6 +123,14 @@
     "max_mg_per_day": 450
   },
   {
+    "name": "ガスター散2%",
+    "active": "ファモチジン",
+    "form": "散剤",
+    "concentration": "2%（20mg/g）",
+    "mg_per_g": 20,
+    "rule_type": "manual"
+  },
+  {
     "name": "カロナール細粒20%",
     "active": "アセトアミノフェン",
     "form": "細粒",
@@ -139,21 +147,6 @@
     "max_mg_per_kg_per_day": 60,
     "max_mg_per_day": 1500,
     "max_mg_per_dose": 500
-  },
-  {
-    "name": "ガスター散2%",
-    "active": "ファモチジン",
-    "form": "散剤",
-    "concentration": "2%（20mg/g）",
-    "mg_per_g": 20,
-    "rule_type": "manual"
-  },
-  {
-    "name": "グルコン酸K細粒4mEq/g",
-    "active": "グルコン酸カリウム",
-    "form": "細粒",
-    "concentration": "4mEq/g（カリウム4mEq/g）",
-    "rule_type": "manual"
   },
   {
     "name": "クラリスドライシロップ10%小児用100mg",
@@ -176,6 +169,13 @@
     "form": "ドライシロップ",
     "concentration": "1%（10mg/g）",
     "mg_per_g": 10,
+    "rule_type": "manual"
+  },
+  {
+    "name": "グルコン酸K細粒4mEq/g",
+    "active": "グルコン酸カリウム",
+    "form": "細粒",
+    "concentration": "4mEq/g（カリウム4mEq/g）",
     "rule_type": "manual"
   },
   {
@@ -219,6 +219,21 @@
     "rule_type": "manual"
   },
   {
+    "name": "サワシリン細粒10%",
+    "active": "アモキシシリン水和物",
+    "form": "細粒",
+    "concentration": "10%（100mg/g）",
+    "mg_per_g": 100,
+    "rule_type": "weight",
+    "dose_basis": "per_day",
+    "dose_mg_per_kg_min": 20,
+    "dose_mg_per_kg_max": 40,
+    "frequency_min": 3,
+    "frequency_max": 4,
+    "frequency": "1日3～4回",
+    "max_mg_per_kg_per_day": 90
+  },
+  {
     "name": "ジルテックドライシロップ1.25%",
     "active": "セチリジン塩酸塩",
     "form": "ドライシロップ",
@@ -244,6 +259,22 @@
     "max_age": 16,
     "source": "PMDA 添付文書（2026年4月1日更新）",
     "note": "アレルギー性鼻炎の適応として自動監査。1回0.06mg/kg、1日2回を基準とする。"
+  },
+  {
+    "name": "セフゾン細粒小児用10%",
+    "active": "セフジニル",
+    "form": "細粒",
+    "concentration": "10%（100mg/g、力価）",
+    "mg_per_g": 100,
+    "rule_type": "weight",
+    "dose_basis": "per_day",
+    "dose_mg_per_kg_min": 9,
+    "dose_mg_per_kg_max": 18,
+    "frequency_min": 3,
+    "frequency_max": 3,
+    "frequency": "1日9～18mg（力価）/kgを3回に分割して経口投与",
+    "source": "PMDA 添付文書（2026年1月30日更新）",
+    "note": "年齢・症状に応じて適宜増減。感染症の適応、腎機能、アレルギー歴、抗菌薬適正使用を確認してください。"
   },
   {
     "name": "セルシン散1%",
@@ -285,6 +316,14 @@
     "max_mg_per_dose": 75
   },
   {
+    "name": "テグレトール細粒50%",
+    "active": "カルバマゼピン",
+    "form": "細粒",
+    "concentration": "50%（500mg/g）",
+    "mg_per_g": 500,
+    "rule_type": "manual"
+  },
+  {
     "name": "デパケンシロップ5%",
     "active": "バルプロ酸ナトリウム",
     "form": "シロップ",
@@ -301,19 +340,18 @@
     "rule_type": "manual"
   },
   {
-    "name": "テグレトール細粒50%",
-    "active": "カルバマゼピン",
-    "form": "細粒",
-    "concentration": "50%（500mg/g）",
-    "mg_per_g": 500,
-    "rule_type": "manual"
-  },
-  {
     "name": "トランサミン散50%",
     "active": "トラネキサム酸",
     "form": "散剤",
     "concentration": "50%（500mg/g）",
     "mg_per_g": 500,
+    "rule_type": "manual"
+  },
+  {
+    "name": "ビオフェルミンR散",
+    "active": "耐性乳酸菌製剤",
+    "form": "散剤",
+    "concentration": "製剤規格による",
     "rule_type": "manual"
   },
   {
@@ -328,13 +366,6 @@
     "active": "乳酸菌・ビフィズス菌配合剤",
     "form": "散剤",
     "concentration": "配合剤",
-    "rule_type": "manual"
-  },
-  {
-    "name": "ビオフェルミンR散",
-    "active": "耐性乳酸菌製剤",
-    "form": "散剤",
-    "concentration": "製剤規格による",
     "rule_type": "manual"
   },
   {
@@ -377,6 +408,22 @@
     "rule_type": "manual"
   },
   {
+    "name": "ペリアクチンシロップ0.04%",
+    "active": "シプロヘプタジン塩酸塩水和物",
+    "form": "シロップ",
+    "concentration": "0.04%（0.4mg/mL）",
+    "mg_per_ml": 0.4,
+    "rule_type": "manual"
+  },
+  {
+    "name": "ペリアクチン散1%",
+    "active": "シプロヘプタジン塩酸塩水和物",
+    "form": "散剤",
+    "concentration": "1%（10mg/g）",
+    "mg_per_g": 10,
+    "rule_type": "manual"
+  },
+  {
     "name": "ベンザリン細粒1%",
     "active": "ニトラゼパム",
     "form": "細粒",
@@ -393,19 +440,33 @@
     "rule_type": "manual"
   },
   {
-    "name": "ペリアクチンシロップ0.04%",
-    "active": "シプロヘプタジン塩酸塩水和物",
-    "form": "シロップ",
-    "concentration": "0.04%（0.4mg/mL）",
-    "mg_per_ml": 0.4,
+    "name": "ミヤBM細粒",
+    "active": "宮入菌",
+    "form": "細粒",
+    "concentration": "1g製剤",
     "rule_type": "manual"
   },
   {
-    "name": "ペリアクチン散1%",
-    "active": "シプロヘプタジン塩酸塩水和物",
-    "form": "散剤",
-    "concentration": "1%（10mg/g）",
-    "mg_per_g": 10,
+    "name": "ムコダインDS50%",
+    "active": "L-カルボシステイン",
+    "form": "ドライシロップ",
+    "concentration": "50%（500mg/g）",
+    "mg_per_g": 500,
+    "rule_type": "weight",
+    "dose_basis": "per_day",
+    "dose_mg_per_kg_min": 20,
+    "dose_mg_per_kg_max": 30,
+    "frequency_min": 3,
+    "frequency_max": 3,
+    "frequency": "1日3回",
+    "max_mg_per_day": 1500
+  },
+  {
+    "name": "ムコダインシロップ5%",
+    "active": "L-カルボシステイン",
+    "form": "シロップ",
+    "concentration": "5%（50mg/mL）",
+    "mg_per_ml": 50,
     "rule_type": "manual"
   },
   {
@@ -460,36 +521,6 @@
     "frequency": "6歳未満：1回0.025mg/kgを1日2～3回相当"
   },
   {
-    "name": "ミヤBM細粒",
-    "active": "宮入菌",
-    "form": "細粒",
-    "concentration": "1g製剤",
-    "rule_type": "manual"
-  },
-  {
-    "name": "ムコダインDS50%",
-    "active": "L-カルボシステイン",
-    "form": "ドライシロップ",
-    "concentration": "50%（500mg/g）",
-    "mg_per_g": 500,
-    "rule_type": "weight",
-    "dose_basis": "per_day",
-    "dose_mg_per_kg_min": 20,
-    "dose_mg_per_kg_max": 30,
-    "frequency_min": 3,
-    "frequency_max": 3,
-    "frequency": "1日3回",
-    "max_mg_per_day": 1500
-  },
-  {
-    "name": "ムコダインシロップ5%",
-    "active": "L-カルボシステイン",
-    "form": "シロップ",
-    "concentration": "5%（50mg/mL）",
-    "mg_per_ml": 50,
-    "rule_type": "manual"
-  },
-  {
     "name": "ラシックス細粒4%",
     "active": "フロセミド",
     "form": "細粒",
@@ -519,21 +550,6 @@
     "form": "細粒",
     "concentration": "20%（200mg/g）",
     "mg_per_g": 200,
-    "rule_type": "weight",
-    "dose_basis": "per_day",
-    "dose_mg_per_kg_min": 20,
-    "dose_mg_per_kg_max": 40,
-    "frequency_min": 3,
-    "frequency_max": 4,
-    "frequency": "1日3～4回",
-    "max_mg_per_kg_per_day": 90
-  },
-  {
-    "name": "サワシリン細粒10%",
-    "active": "アモキシシリン水和物",
-    "form": "細粒",
-    "concentration": "10%（100mg/g）",
-    "mg_per_g": 100,
     "rule_type": "weight",
     "dose_basis": "per_day",
     "dose_mg_per_kg_min": 20,
